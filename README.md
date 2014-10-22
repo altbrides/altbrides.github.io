@@ -1,4 +1,2 @@
 altbrides.github.io
 ===================
-
-altbrides
