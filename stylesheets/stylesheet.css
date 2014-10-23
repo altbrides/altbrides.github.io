@@ -52,7 +52,7 @@ body {
   line-height: 1.5;
   background: #6d6d6d;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
   color: #6d6d6d;
 }
 
@@ -70,7 +70,18 @@ header {
 
 header.welcome{
   text-align: center;
-  color:#555;
+  color: #555;
+  border: 1px solid white;
+  border-radius: 170px;
+  padding: 60px 60px;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 20px;
+}
+
+header.welcome img{
+  width: 130px;
+  height: 150px;
 }
 
 header h1 {
@@ -95,7 +106,8 @@ header h2 {
 
 .inner {
   width: 620px;
-  margin: 0 auto;
+  margin: 140px auto 0;
+  text-align: center;
 }
 
 #container .inner img {
