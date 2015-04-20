@@ -71,17 +71,9 @@ header {
 header.welcome{
   text-align: center;
   color: #555;
-  border: 1px solid white;
-  border-radius: 170px;
-  padding: 60px 60px;
-  width: 130px;
-  height: 130px;
-  margin: 0 auto 20px;
-}
-
-header.welcome img{
-  width: 130px;
-  height: 150px;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
 }
 
 header h1 {
