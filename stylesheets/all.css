@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #6d6d6d;
+  background: #4D5154;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   color:#CDCDCD;
 }
@@ -17,10 +17,12 @@ body {
 }
 
 .inner h4{
-  padding-top:30px;
+  padding-top:10px;
   line-height: 1.5em;
   font-size: 12px;
-  text-align: justify;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .inner h1{
@@ -28,7 +30,7 @@ body {
 }
 
 .inner img{
-  padding-top: 30px;
+  padding-bottom: 30px;
   width:350px;
   margin:0 auto;
 }
